@@ -8,9 +8,9 @@
             <span class="logo-focus" routerLink="">
               <img class="nav_logo" src="" />
             </span>
-            <select #langSelect (change)="translateService.use(langSelect.value)" class="lang-select">
+            <!-- <select #langSelect (change)="translateService.use(langSelect.value)" class="lang-select">
               <option *ngFor="let lang of translateService.getLangs()" [value]="lang" [selected]="lang === translateService.currentLang">{{ lang }}</option>
-            </select>
+            </select> -->
           </div>
         </mat-toolbar-row>
       </mat-toolbar>

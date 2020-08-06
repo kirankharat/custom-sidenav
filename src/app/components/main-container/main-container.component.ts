@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavService } from 'src/app/services/nav-service/nav.service';
+import { NavService } from '../../services/nav-service/nav.service';
 
 @Component({
   selector: 'app-main-container',
