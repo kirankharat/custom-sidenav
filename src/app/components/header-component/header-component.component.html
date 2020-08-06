@@ -1,0 +1,21 @@
+<div class="">
+  <div class="" id="scrollableDiv">
+    <div class="">
+      <mat-toolbar>
+        <mat-toolbar-row style="position: fixed;" class="toolbar-section">
+          <div class="header-container">
+            <app-nav-toggle></app-nav-toggle>
+            <span class="logo-focus" routerLink="">
+              <img class="nav_logo" src="" />
+            </span>
+            <select #langSelect (change)="translateService.use(langSelect.value)" class="lang-select">
+              <option *ngFor="let lang of translateService.getLangs()" [value]="lang" [selected]="lang === translateService.currentLang">{{ lang }}</option>
+            </select>
+          </div>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </div>
+  </div>
+</div>
+
+

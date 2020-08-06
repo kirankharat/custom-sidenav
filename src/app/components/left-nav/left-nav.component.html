@@ -1,0 +1,10 @@
+<ul>
+  <li>
+    <mat-icon matTooltip="John Doe">face</mat-icon>
+    <span class="navNames">John Doe</span>
+  </li>
+  <li *ngFor="let list of navList" [routerLink]="list.url">
+    <mat-icon [matTooltip]="list.title">{{list.icon}}</mat-icon>
+    <span class="navNames">{{list.name}}</span>
+  </li>
+</ul>

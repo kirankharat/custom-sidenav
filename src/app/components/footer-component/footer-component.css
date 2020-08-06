@@ -1,0 +1,33 @@
+button.top-scroll {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ff304c;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    background: #ff304c;
+    color: #ffffff;
+   -ms-box-shadow: 0 2px 6px #00000082;
+    box-shadow: 0 2px 6px #00000082;
+    z-index: 9999;
+  }
+  button.theme-button {
+    position: fixed;
+    bottom: 5em;
+    right: 1em;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #007bff;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    color: var(--color-dark);
+    background: #007bff;
+    box-shadow: 0 2px 6px #00000082;
+    z-index: 9999;
+}
