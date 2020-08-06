@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule} from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { MasterHomeComponent } from './components/master-home/master-home.component';
 
 
