@@ -1,0 +1,77 @@
+.solution-card:focus {
+  outline: 0;
+}
+.content{
+position: relative;
+}
+.card-header-title{
+  width: 100%;
+  text-align: left;
+  display: block;
+  padding: 0.5rem 1rem 0.8rem;
+}
+.title{
+  color: #12abdb;
+  font-weight: 600;
+  width: 100%;
+  margin: 0 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.25px;
+  /* line-height: 16px; */
+  text-transform: uppercase;
+}
+.mat-card-image {
+  margin-top: 0 !important;
+  object-fit: cover;
+}
+.subtitle{
+  width: 100%;
+  color: #0070ad;
+  font-weight: 500;
+  font-size: 0.76rem;
+}
+.card-header-title .mat-card-header-text{
+  margin: 0 3px;
+  color: #2dd5ff;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 4px;
+}
+.view-all{
+  font-size: 0.7rem;
+  float: right;
+  padding: 3px 7px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+img{
+  width: 100%;
+  margin:0;
+/* //  padding: 0 15px; */
+max-height: 12rem;
+min-height: 12rem;
+}
+.mat-card-content {
+  padding: 0.5rem 0.85rem 0.5rem;
+}
+
+.welcome-text span.user-name {
+    float: left;
+}
+.welcome-text span.solution-text {
+    float: right;
+}
+
+.loading-container {
+    /* min-height: 60vh; */
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: calc(100vh - 180px);
+}
+
+
+
+
+
