@@ -15,6 +15,8 @@ import { HelloComponent } from './hello.component';
 // import { FooterComponent } from './components/footer-component/footer-component';
 // import { MasterContainerComponent } from './components/master-container/master-container.component';
 // import { HeaderComponentComponent } from './components/header-component/header-component.component';
+//import { NavToggleComponent } from '/components/nav-toggle/nav-toggle.component';
+
 import { NavToggleComponent } from './components/nav-toggle/nav-toggle.component';
 import { NavService } from './services/nav-service/nav.service';
 
