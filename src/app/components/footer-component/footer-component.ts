@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
-import { AppService } from '../../services/app.service';
-import { messages} from '../../resource-bundle/message';
+// import { AppService } from '../../services/app.service';
+// import { messages} from '../../resource-bundle/message';
 
 
 @Component({
@@ -15,14 +15,13 @@ export class FooterComponent implements OnInit {
 
   logoimage:string=""
   logohovertext:string=""
-  public messages=messages
+  //public messages=messages
 
   getLogoImage(url:string):string{
     return this.logoimage
   }
-  constructor(private appservice:AppService) {
-
-  }
+  // constructor(private appservice:AppService) { }
+  constructor() {}
 
   ngOnInit() {
     this.getHeaderLogo()
