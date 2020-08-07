@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { NavService } from 'src/app/services/navService/nav.service';
+//import { NavService } from '../../services/navService/nav.service';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
@@ -10,13 +10,13 @@ import { DOCUMENT } from '@angular/common';
 export class LeftContainerComponent implements OnInit {
   isClick: boolean;
   recievedValue: boolean;
-  constructor(private navService: NavService, @Inject(DOCUMENT) private document: Document) { }
-
+  // constructor(private navService: NavService, @Inject(DOCUMENT) private document: Document) { }
+  constructor(@Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
-    this.navService.isClick.subscribe(res =>
-        this.isClick = res
-      )
-      console.log(this.isClick);
+    // this.navService.isClick.subscribe(res =>
+    //     this.isClick = res
+    //   )
+    //   console.log(this.isClick);
 
     }
 }
