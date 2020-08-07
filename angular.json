@@ -23,7 +23,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              //"src/styles.css",
+              "src/styles.less",
+              {
+                "input": "src/styles.less"
+              }
             ],
             "scripts": []
           },
