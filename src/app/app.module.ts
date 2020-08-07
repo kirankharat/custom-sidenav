@@ -17,9 +17,10 @@ import { LeftContainerComponent } from './components/left-container/left-contain
 //import { HeaderComponentComponent } from './components/header-component/header-component.component';
 //import { NavToggleComponent } from '/components/nav-toggle/nav-toggle.component';
 import { NavService } from './services/nav-service/nav.service';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, MatTooltipModule ],
   declarations: [ 
     AppComponent, 
     HelloComponent, 
